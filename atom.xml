@@ -4,7 +4,7 @@
   <title><![CDATA[sky of Formear]]></title>
   <link href="http://formear.github.io/atom.xml" rel="self"/>
   <link href="http://formear.github.io/"/>
-  <updated>2013-09-26T18:56:36+08:00</updated>
+  <updated>2013-09-26T18:58:40+08:00</updated>
   <id>http://formear.github.io/</id>
   <author>
     <name><![CDATA[Formear]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[first]]></title>
+    <link href="http://formear.github.io/blog/2013/09/26/first/"/>
+    <updated>2013-09-26T18:58:00+08:00</updated>
+    <id>http://formear.github.io/blog/2013/09/26/first</id>
+    <content type="html"><![CDATA[<h2>have not yet to learn any more!</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[test]]></title>
