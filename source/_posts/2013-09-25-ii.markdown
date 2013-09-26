@@ -1,11 +1,49 @@
 ---
 layout: post
-title: "ii"
+title: 'test'
 date: 2013-09-25 17:46
 comments: true
-categories: 
+categories: test
 ---
 
-## hello
+## Test octopress function
 
-this is just test
+```
+$ sudo apt-get install git
+$ sudo apt-get install tig
+$ sudo apt-get install ctags
+```
+
+<!-- more -->
+
+    sudo apt-get install git
+
+{% blockquote Bynat https://github.com/formear my github%}
+Just have little faith
+{% endblockquote %}
+
+{% pullquote %}
+Surround your paragraph with the pull quote tags. Then when you come to
+the text you want to pull, {" I love you "} and that's all there is to it.
+Surround your paragraph with the pull quote tags. Then when you come to
+Surround your paragraph with the pull quote tags. Then when you come to
+Surround your paragraph with the pull quote tags. Then when you come to
+{% endpullquote %}
+
+{% codeblock lang:js title for dis - awesome.haml http://www.google.com click me %}
+  var arr1 = new Array(arrayLenth);
+  var arr2 = new Array(e0, e1, e2, ..., eN);
+{% endcodeblock %}
+
+``` js test http://www.google.com other
+  $(document).ready(function(){
+    $('.test').click(function(){
+      console.log('clicked!')
+      })
+    })
+```
+{% include_code add test to post test.js %}
+
+{% render_partial documentation/read.md %}
+
+{% img add-img /images/test.jpg alt-test %}
