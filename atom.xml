@@ -1,26 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[sky of july-12]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2013-09-25T17:52:59+08:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[sky of Formear]]></title>
+  <link href="http://formear.github.io/atom.xml" rel="self"/>
+  <link href="http://formear.github.io/"/>
+  <updated>2013-09-26T15:49:02+08:00</updated>
+  <id>http://formear.github.io/</id>
   <author>
-    <name><![CDATA[Bynat]]></name>
+    <name><![CDATA[Formear]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[ii]]></title>
-    <link href="http://yoursite.com/blog/2013/09/25/ii/"/>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://formear.github.io/blog/2013/09/25/ii/"/>
     <updated>2013-09-25T17:46:00+08:00</updated>
-    <id>http://yoursite.com/blog/2013/09/25/ii</id>
-    <content type="html"><![CDATA[<h2>hello</h2>
+    <id>http://formear.github.io/blog/2013/09/25/ii</id>
+    <content type="html"><![CDATA[<h2>Test octopress function</h2>
 
-<p>this is just test</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ sudo apt-get install git
+</span><span class='line'>$ sudo apt-get install tig
+</span><span class='line'>$ sudo apt-get install ctags</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<!-- more -->
+
+
+<pre><code>sudo apt-get install git
+</code></pre>
+
+<blockquote><p>Just have little faith</p><footer><strong>Bynat</strong> <cite><a href='https://github.com/formear'>My Github</a></cite></footer></blockquote>
+
+
+<p><span class='pullquote-right' data-pullquote='I love you'>
+Surround your paragraph with the pull quote tags. Then when you come to
+the text you want to pull, I love you and that&rsquo;s all there is to it.
+Surround your paragraph with the pull quote tags. Then when you come to
+Surround your paragraph with the pull quote tags. Then when you come to
+Surround your paragraph with the pull quote tags. Then when you come to
+</span></p>
+
+<figure class='code'><figcaption><span>title for dis - awesome.haml</span><a href='http://www.google.com'>click me </a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'>  <span class="kd">var</span> <span class="nx">arr1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">arrayLenth</span><span class="p">);</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">e0</span><span class="p">,</span> <span class="nx">e1</span><span class="p">,</span> <span class="nx">e2</span><span class="p">,</span> <span class="p">...,</span> <span class="nx">eN</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>test</span><a href='http://www.google.com'>other</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.test&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;clicked!&#39;</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">})</span>
+</span><span class='line'>    <span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<figure class='code'><figcaption><span>add test to post (test.js)</span> <a href='http://formear.github.io/downloads/code/test.js'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;ul&#39;</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="s1">&#39;li&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;clicked!&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>read file from documentation direct</h2>
+
+<p><img class="add-img" src="http://formear.github.io/images/test.jpg" title="alt-test" ></p>
 ]]></content>
   </entry>
   
